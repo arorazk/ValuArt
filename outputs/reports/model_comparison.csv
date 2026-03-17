@@ -1,0 +1,4 @@
+model,cv_r2,cv_r2_std,cv_mae,cv_rmse,fit_time_s,test_r2,test_mae,test_rmse
+GradientBoosting,0.8479,0.0596,2.5055,7.5605,10.27,0.9066,1.9274,4.7701
+RandomForest,0.8166,0.0839,2.5134,8.2152,10.18,0.9595,1.6966,3.142
+LinearRegression,0.794,0.0723,3.9923,8.2613,0.02,0.8995,3.1776,4.9471

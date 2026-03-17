@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Outputs (optional – uncomment to exclude from repo)
+# outputs/models/
+# outputs/plots/
+# outputs/reports/
+
+# Data (optional – uncomment to exclude large CSVs from repo)
+# data/nft_sales.csv
