@@ -32,6 +32,17 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# hide the top-right GitHub button and the main menu
+st.markdown("""
+<style>
+#MainMenu {visibility: hidden;}
+header [data-testid="stToolbar"] {visibility: hidden;}
+footer {visibility: hidden;}
+[data-testid="stToolbarActions"] {display: none;}
+a[href*="github"] {display: none !important;}
+</style>
+""", unsafe_allow_html=True)
+
 # ── Helpers ──────────────────────────────────────────────────────────────────
 
 MODEL_PATH = outputs_path("models", "best_model.pkl")
