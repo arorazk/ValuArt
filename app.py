@@ -160,6 +160,14 @@ col_pred, col_info = st.columns([1.1, 1], gap="large")
 with col_pred:
     st.markdown("### Predicted Sale Price")
 
+    # mobile hint — only shows when sidebar is collapsed
+    st.markdown("""
+    <div style="background:#1e293b; border:1px solid #334155; border-radius:8px;
+                padding:0.6rem 1rem; margin-bottom:1rem; font-size:0.85rem; color:#94a3b8;">
+        📱 <strong>On mobile?</strong> Tap the <strong>≡</strong> icon (top left) to open the input sliders.
+    </div>
+    """, unsafe_allow_html=True)
+
     if predict_btn:
         inputs = {
             "collection_name":   collection_name,
