@@ -32,6 +32,14 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
+# force sidebar open and keep it visible
+st.markdown("""
+<style>
+[data-testid="collapsedControl"] {display: none;}
+section[data-testid="stSidebar"] {display: flex !important; visibility: visible !important;}
+</style>
+""", unsafe_allow_html=True)
+
 # hide the top-right GitHub button and the main menu
 st.markdown("""
 <style>
