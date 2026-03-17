@@ -250,8 +250,8 @@ python -m src.predict --input data/new_listings.csv --output outputs/predictions
 - **Pandas** – data manipulation
 - **NumPy** – numerical operations
 - **scikit-learn** – modelling, preprocessing, evaluation
-- **Matplotlib** – visualisation
-- **Joblib** – model serialisation
+- **Matplotlib** – visualization
+- **Joblib** – model serialization
 
 ---
 
